@@ -12,7 +12,7 @@ const C = {
 
 // ── Data ──────────────────────────────────────────────────────────────────────
 const STATS = [
-  {id:"truns",  target:2843, label:"TEST RUNS",      sub:"Avg 41.81 ,         suffix:"+"},
+  {id:"truns",  target:2843, label:"TEST RUNS",      sub:"Avg 41.81 ",         suffix:"+"},
   {id:"oruns",  target:2953, label:"ODI RUNS",       sub:"Avg 55.72",         suffix:"+"},
   {id:"cents",  target:19,   label:"CENTURIES",      sub:"All formats",      suffix:"+"},
   {id:"rank",   target:null, label:"ICC RANKING",    sub:"ODI Batter (peak)",display:"#1"},
