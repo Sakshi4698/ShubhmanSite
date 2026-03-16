@@ -31,7 +31,7 @@ const TIMELINE = [
 
 const VICTORIES = [
   {
-    img:        "assets/victory-1.jpg",
+    img:        "assets/victory-1.png",
     score:      "",
     tournament: "Champions Trophy 2025",
     match:      "",
@@ -39,7 +39,7 @@ const VICTORIES = [
     label:      "Highest ODI score by an Indian",
   },
   {
-    img:        "assets/victory-2.jpg",
+    img:        "assets/victory-2.png",
     score:      "IPL 🏆",
     tournament: "Indian Premier League",
     match:      "Gujarat Titans",
@@ -55,7 +55,7 @@ const VICTORIES = [
     label:      "Match-winning knock against arch-rivals",
   },
   {
-    img:        "assets/victory-4.jpg",
+    img:        "assets/victory-4.png",
     score:      "",
     tournament: "Asia Cup 2025",
     match:      "INDIAN TEAM",
