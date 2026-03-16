@@ -34,7 +34,7 @@ const VICTORIES = [
     img:        "assets/victory-1.png",
     score:      "",
     tournament: "Champions Trophy 2025",
-    match:      "",
+    match:      "INDIAN TEAM",
     year:       "2025",
     label:      "Highest ODI score by an Indian",
   },
@@ -800,10 +800,10 @@ function Footer() {
       <div style={{ display: "grid", gridTemplateColumns: isMobile ? "1fr" : "2fr 1fr 1fr", gap: isMobile ? 32 : 48, maxWidth: 1200, margin: "0 auto 40px" }}>
         <div>
           <div style={{ fontFamily: "'Bebas Neue',sans-serif", fontSize: "2rem", color: C.gold, letterSpacing: 3, fontStyle: "italic", marginBottom: 12 }}>SG<span style={{ color: C.saffron }}>77</span></div>
-          <p style={{ fontSize: ".8rem", color: "rgba(240,244,255,.5)", lineHeight: 1.7, maxWidth: 320 }}>The official fan hub for Shubman Gill — India's next great batter. Elegant. Fearless. Champion.</p>
+          <p style={{ fontSize: ".8rem", color: "rgba(240,244,255,.5)", lineHeight: 1.7, maxWidth: 320 }}>The official business website of Shubman Gill — India's next great batter. Elegant. Fearless. Champion.</p>
           <div style={{ display: "flex", gap: 8, marginTop: 20, flexWrap: "wrap" }}>
             <input placeholder="Your email address" style={{ flex: 1, minWidth: 160, background: "rgba(255,255,255,.05)", border: "1px solid rgba(212,175,55,.3)", padding: "10px 14px", color: C.white, fontSize: ".8rem", fontFamily: "inherit" }} />
-            <button style={{ background: C.gold, color: C.dark, border: "none", padding: "10px 20px", fontWeight: 700, fontSize: ".75rem", cursor: "pointer", letterSpacing: 1, whiteSpace: "nowrap" }}>JOIN ARMY</button>
+            <button style={{ background: C.gold, color: C.dark, border: "none", padding: "10px 20px", fontWeight: 700, fontSize: ".75rem", cursor: "pointer", letterSpacing: 1, whiteSpace: "nowrap" }}>Contact Us</button>
           </div>
         </div>
         {[
