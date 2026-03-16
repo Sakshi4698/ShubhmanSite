@@ -12,12 +12,12 @@ const C = {
 
 // ── Data ──────────────────────────────────────────────────────────────────────
 const STATS = [
-  {id:"truns",  target:3400, label:"TEST RUNS",      sub:"Avg 47.2",         suffix:"+"},
-  {id:"oruns",  target:4500, label:"ODI RUNS",       sub:"Avg 58.1",         suffix:"+"},
-  {id:"cents",  target:23,   label:"CENTURIES",      sub:"All formats",      suffix:"+"},
+  {id:"truns",  target:2843, label:"TEST RUNS",      sub:"Avg 41.81 ,         suffix:"+"},
+  {id:"oruns",  target:2953, label:"ODI RUNS",       sub:"Avg 55.72",         suffix:"+"},
+  {id:"cents",  target:19,   label:"CENTURIES",      sub:"All formats",      suffix:"+"},
   {id:"rank",   target:null, label:"ICC RANKING",    sub:"ODI Batter (peak)",display:"#1"},
-  {id:"ipl",    target:3200, label:"IPL RUNS",       sub:"Strike Rate 136",  suffix:"+"},
-  {id:"fifties",target:60,   label:"HALF CENTURIES", sub:"All formats",      suffix:"+"},
+  {id:"ipl",    target:3866, label:"IPL RUNS",       sub:"Strike Rate 138.72",  suffix:"+"},
+  {id:"fifties",target:28,   label:"HALF CENTURIES", sub:"All formats",      suffix:"+"},
 ];
 
 const TIMELINE = [
@@ -40,7 +40,7 @@ const VICTORIES = [
   },
   {
     img:        "assets/victory-2.png",
-    score:      "IPL 🏆",
+    score:      "",
     tournament: "Indian Premier League",
     match:      "Gujarat Titans",
     year:       "2023",
