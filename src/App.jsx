@@ -530,7 +530,7 @@ function BrandCollabs() {
   const { isMobile } = useBreakpoint();
   const doubled = [...BRANDS, ...BRANDS];
   return (
-    <section id ='brands',style={{ padding: isMobile ? "60px 0" : "90px 0 80px", background: `linear-gradient(to bottom,${C.dark},#040f24)`, overflow: "hidden" }}>
+    <section id ='brands' style={{ padding: isMobile ? "60px 0" : "90px 0 80px", background: `linear-gradient(to bottom,${C.dark},#040f24)`, overflow: "hidden" }}>
       <div style={{ maxWidth: 1300, margin: "0 auto 40px", padding: isMobile ? "0 20px" : "0 40px" }}>
         <SectionLabel>Partnerships</SectionLabel>
         <SectionTitle>BRAND COLLABS</SectionTitle>
