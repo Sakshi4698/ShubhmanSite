@@ -17,7 +17,7 @@ const STATS = [
   {id:"cents",  target:19,   label:"CENTURIES",      sub:"All formats",      suffix:"+"},
   {id:"rank",   target:null, label:"ICC RANKING",    sub:"ODI Batter (peak)",display:"#1"},
   {id:"ipl",    target:3866, label:"IPL RUNS",       sub:"Strike Rate 138.72",  suffix:"+"},
-  {id:"fifties",target:28,   label:"HALF CENTURIES", sub:"All formats",      suffix:"+"},
+  {id:"fifties",target:28,   label:"HALF CENTURIES", sub:"All formats",      suffix:"+"}
 ];
 
 const TIMELINE = [
