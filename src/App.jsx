@@ -30,9 +30,9 @@ const TIMELINE = [
 ];
 
 const SOCIALS = [
-  {name:"Instagram",handle:"@shubmangill",    icon:"📸",color:"rgba(180,58,117,0.75)", url:"https://www.instagram.com/shubmangill"},
   {name:"Twitter/X",handle:"@ShubmanGill",    icon:"𝕏", color:"rgba(0,0,0,.8)",        url:"https://x.com/ShubmanGill"},
   {name:"LinkedIn", handle:"Shubman Gill",    icon:"▶", color:"rgba(10,102,194,1)",    url:"https://www.linkedin.com/in/shubmangill"},
+  {name:"Instagram",handle:"@shubmangill",    icon:"📸",color:"rgba(180,58,117,0.75)", url:"https://www.instagram.com/shubmangill"},
   {name:"BCCI",     handle:"Official Profile",icon:"🏏",color:"rgba(0,51,102,.8)",     url:"https://www.bcci.tv/international/men/players/shubman-gill/62"},
   {name:"Website",  handle:"shubmangill.com", icon:"🌐",color:"rgba(20,80,40,.8)",     url:"#"},
 ];
@@ -125,7 +125,7 @@ function Navbar() {
     return () => window.removeEventListener("scroll", h);
   }, []);
 
-  const links = [["ON THE PITCH", "#stats"], ["OFF THE PITCH", "#socials"]];
+  const links = [["ON THE PITCH", "#stats"], ["OFF THE PITCH", "#brands"]];
   const lnkStyle = { color: "rgba(240,244,255,.8)", textDecoration: "none", fontSize: ".72rem", fontWeight: 700, letterSpacing: "3px", textTransform: "uppercase", cursor: "pointer", display: "block", padding: "10px 0" };
 
   return (
@@ -530,7 +530,7 @@ function BrandCollabs() {
   const { isMobile } = useBreakpoint();
   const doubled = [...BRANDS, ...BRANDS];
   return (
-    <section style={{ padding: isMobile ? "60px 0" : "90px 0 80px", background: `linear-gradient(to bottom,${C.dark},#040f24)`, overflow: "hidden" }}>
+    <section id ='brands',style={{ padding: isMobile ? "60px 0" : "90px 0 80px", background: `linear-gradient(to bottom,${C.dark},#040f24)`, overflow: "hidden" }}>
       <div style={{ maxWidth: 1300, margin: "0 auto 40px", padding: isMobile ? "0 20px" : "0 40px" }}>
         <SectionLabel>Partnerships</SectionLabel>
         <SectionTitle>BRAND COLLABS</SectionTitle>
@@ -718,9 +718,9 @@ export default function App() {
       <Navbar />
       <Hero />
       <Marquee texts={["TEST CENTURION", "FUTURE OF INDIAN CRICKET", "SIMPLY ELEGANT", "208* VS NEW ZEALAND", "IPL CHAMPION", "PUNJAB DA MUNDA"]} />
+      <QuoteSection />
       <StatsSection />
       <Marquee texts={["FUTURE OF INDIAN CRICKET", "SIMPLY ELEGANT", "BORN TO BAT", "SG 77", "GT CHAMPION 2022", "PUNJAB DA MUNDA"]} reverse />
-      <QuoteSection />
       <TimelineSection />
       <BrandCollabs />
       <SocialsSection />
