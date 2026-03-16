@@ -189,10 +189,10 @@ function Hero() {
             <div className="portrait-flip-wrap" style={{width:220,height:220,borderRadius:"50%",border:`3px solid ${C.gold}`,boxShadow:"0 0 0 5px rgba(212,175,55,.15),0 0 40px rgba(212,175,55,.2)",position:"relative",zIndex:2,perspective:900,cursor:"pointer"}}>
               <div className="portrait-flip-inner">
                 <div className="portrait-flip-front">
-                  <img src="/assets/hero-front.jpg" alt="Shubman Gill" style={{width:"100%",height:"100%",objectFit:"cover",objectPosition:"center 20%",display:"block"}}/>
+                  <img src="/assets/hero.png" alt="Shubman Gill" style={{width:"100%",height:"100%",objectFit:"cover",objectPosition:"center 20%",display:"block"}}/>
                 </div>
                 <div className="portrait-flip-back">
-                  <img src="/assets/hero-back.jpg" alt="Shubman Gill BW" style={{width:"100%",height:"100%",objectFit:"cover",objectPosition:"center 20%",display:"block"}}/>
+                  <img src="/assets/hero.png" alt="Shubman Gill BW" style={{width:"100%",height:"100%",objectFit:"cover",objectPosition:"center 20%",display:"block"}}/>
                 </div>
               </div>
             </div>
